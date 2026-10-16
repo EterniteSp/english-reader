@@ -137,7 +137,7 @@ function renderHome() {
     ${next ? `<div class="section-title">${next.label}</div>
     <a class="card glass tap continue" href="#/text/${next.t.id}" style="text-decoration:none;color:inherit">
       <span class="emoji">${next.t.icon}</span>
-      <span style="flex:1;min-width:0"><span class="t">${esc(next.t.title)}</span><br><span class="small muted">${esc(next.t.ru)} · ${next.t.level}</span></span>
+      <span style="flex:1;min-width:0"><span class="t">${esc(next.t.title)}</span><br><span class="small muted">${esc(next.t.ru)} · ${next.t.level} · ${next.t.kind === 'story' ? 'история' : 'фразы'}</span></span>
     </a>` : ''}
 
     <div class="section-title">Уровень</div>
@@ -154,7 +154,7 @@ function renderHome() {
     <div class="texts">
       ${list.map((t) => `<a class="card glass tap text-card" href="#/text/${t.id}" style="text-decoration:none;color:inherit">
         <span class="emoji">${t.icon}</span>
-        <span style="min-width:0"><span class="t">${esc(t.title)}</span><div class="s">${esc(t.ru)} · ${t.s.length} ${plural(t.s.length, 'фраза', 'фразы', 'фраз')}</div></span>
+        <span style="min-width:0"><span class="t">${esc(t.title)}</span><div class="s">${esc(t.ru)} · ${t.s.length} ${t.kind === 'story' ? plural(t.s.length, 'предложение', 'предложения', 'предложений') : plural(t.s.length, 'фраза', 'фразы', 'фраз')}</div></span>
         ${textProgress(p, t)}
       </a>`).join('')}
     </div>

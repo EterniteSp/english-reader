@@ -713,4 +713,334 @@ it's up to you | ph | решать тебе
 great-aunt | n | двоюродная бабушка
 print | n | след, отпечаток
 self | n | сам, личность | selves
+
+# Фразы B1
+vegetarian | n | вегетарианец, вегетарианка
+update | n | обновление
+update | v | обновлять
+unhealthy | adj | вредный, нездоровый
+social | adj | социальный, общественный
+media | n | СМИ
+social media | n | соцсети
+sight | n | зрение, вид, зрелище
+at first sight | ph | с первого взгляда
+refund | n | возврат денег
+protest | v | протестовать
+pronunciation | n | произношение
+overtime | adv | сверхурочно
+overtime | n | сверхурочная работа
+motorway | n | автомагистраль, трасса
+irregular | adj | неправильный, нерегулярный
+instantly | adv | мгновенно
+instalment | n | взнос | instalments, installment, installments
+in instalments | ph | в рассрочку
+inconvenience | n | неудобство
+hack | v | взламывать
+essay | n | сочинение, эссе
+delivery | n | доставка
+crash | v | разбиться, зависать (о компьютере)
+crash | n | авария, сбой
+connection | n | пересадка, связь, соединение
+air conditioning | n | кондиционер
+complaint | n | жалоба
+make a complaint | ph | подать жалобу | made a complaint, makes a complaint
+burst | v | лопнуть, ворваться | bursts, bursting
+burst into tears | ph | расплакаться | bursts into tears
+brilliant | adj | блестящий, гениальный
+anniversary | n | годовщина
+robot | n | робот
+laughter | n | смех
+to be honest | ph | честно говоря
+any longer | ph | больше (не)
+take after | ph | быть похожим (на родственника) | took after, takes after, taking after
+mother-in-law | n | свекровь, тёща
+father-in-law | n | свёкор, тесть
+agree to disagree | ph | остаться каждый при своём мнении
+
+# Расширенный словарь B1
+ability | n | способность
+absence | n | отсутствие
+academic | adj | академический
+access | n | доступ
+accompany | v | сопровождать
+account for | ph | объяснять | accounted for, accounts for
+acquire | v | приобретать
+active | adj | активный
+activity | n | деятельность, занятие
+actor | n | актёр
+actress | n | актриса
+addition | n | добавление
+address | n | адрес
+admission | n | вход, поступление
+advert | n | реклама, объявление
+advertise | v | рекламировать
+advertisement | n | реклама
+advice | n | совет
+afterwards | adv | после, потом
+agency | n | агентство
+agreement | n | соглашение
+alarm | n | тревога, будильник
+alcohol | n | алкоголь
+alternative | n | альтернатива
+amusing | adj | забавный
+announcement | n | объявление
+annual | adj | ежегодный
+apartment block | n | многоквартирный дом
+appearance | n | внешность, появление
+appetite | n | аппетит
+applicant | n | кандидат, заявитель
+architecture | n | архитектура
+arrangement | n | договорённость
+atmosphere | n | атмосфера
+attitude | n | отношение
+author | n | автор
+average | adj | средний
+award | n | награда
+background | n | фон, происхождение
+balance | n | баланс, равновесие
+bar | n | бар, плитка
+basis | n | основа
+battle | n | битва
+behaviour | n | поведение | behavior
+belief | n | вера, убеждение
+belong | v | принадлежать
+birth | n | рождение
+bite | v | кусать | bit, bitten, bites, biting
+blind | adj | слепой
+board | n | доска, совет
+bone | n | кость
+border | v | граничить
+bottom | n | дно, низ
+brand | n | бренд, марка
+bright | adv | ярко
+budget | v | планировать бюджет
+capital | n | столица, капитал
+care | n | забота
+celebration | n | празднование
+ceremony | n | церемония
+challenge | n | вызов, трудная задача
+champion | n | чемпион
+channel | n | канал
+chapter | n | глава
+charity | n | благотворительность
+chat | v | болтать
+chat | n | беседа, чат
+cheat | v | обманывать, списывать
+childcare | n | уход за детьми
+clear | adj | ясный, понятный
+clear | v | очищать, убирать
+cliff | n | скала, утёс
+comedy | n | комедия
+comfort | n | комфорт, утешение
+comment | n | комментарий
+commercial | adj | коммерческий
+common | adj | общий, распространённый
+communication | n | общение, связь
+comparison | n | сравнение
+competitor | n | соперник
+concern | n | беспокойство
+concerned | adj | обеспокоенный
+conclusion | n | вывод
+confusing | adj | запутанный
+congratulate | v | поздравлять
+consequence | n | последствие
+contact | n | контакт
+content | n | содержание
+context | n | контекст
+control | n | контроль
+control | v | контролировать
+conversation | n | разговор
+cook | n | повар
+copy | n | копия
+copy | v | копировать
+costume | n | костюм (карнавальный)
+cottage | n | коттедж, домик
+countryside | n | сельская местность
+courage | n | смелость
+course | n | курс
+cover | n | обложка
+crew | n | экипаж, команда
+critic | n | критик
+cure | n | лекарство, излечение
+currency | n | валюта
+custom | n | обычай
+cycle | v | ездить на велосипеде
+daily | adj | ежедневный
+danger | n | опасность
+deaf | adj | глухой
+death | n | смерть
+definition | n | определение
+demand | n | спрос, требование
+detail | n | деталь
+detective | n | детектив
+diary | n | дневник, ежедневник
+difference | n | разница
+direction | n | направление
+director | n | директор, режиссёр
+dirt | n | грязь
+discount | v | делать скидку
+distance | n | расстояние
+documentary | n | документальный фильм
+download | n | загрузка
+drama | n | драма
+duty | n | обязанность, пошлина
+edge | n | край
+education | n | образование
+effort | n | усилие
+element | n | элемент
+emergency | adj | экстренный
+empty | v | опустошать
+encouragement | n | поддержка, поощрение
+entrance | n | вход
+entry | n | вход, запись
+equal | adj | равный
+error | n | ошибка
+escape | v | сбегать
+exhibition | n | выставка
+exit | n | выход
+expense | n | расход
+explanation | n | объяснение
+extraordinary | adj | необыкновенный
+fairy tale | n | сказка
+fan | n | болельщик, вентилятор
+fear | v | бояться
+feature | n | особенность
+fee | n | плата, взнос
+fiction | n | художественная литература
+figure | n | фигура, цифра
+file | n | файл, папка
+film | v | снимать (видео)
+fitness | n | физическая форма
+flavour | n | вкус, аромат | flavor
+fold | v | складывать
+folk | adj | народный
+fortunately | adv | к счастью
+fortune | n | удача, состояние
+frightening | adj | пугающий
+frozen | adj | замороженный
+fuel | n | топливо
+gap | n | промежуток, пробел
+generation | n | поколение
+gentleman | n | джентльмен | gentlemen
+global | adj | глобальный
+glue | n | клей
+gossip | n | сплетни
+grade | n | оценка, класс
+grocery | n | продуктовый магазин | groceries
+growth | n | рост
+habit | n | привычка
+height | n | рост, высота
+hero | n | герой | heroes
+highlight | n | главное событие
+hire | n | прокат
+hometown | n | родной город
+horror | n | ужас
+host | n | хозяин, ведущий
+household | n | домашнее хозяйство
+housing | n | жильё
+identity | n | личность
+illness | n | болезнь
+image | n | изображение, образ
+impression | n | впечатление
+improvement | n | улучшение
+increase | n | рост, увеличение
+individual | adj | индивидуальный
+injury | n | травма
+insurance | n | страховка
+intelligent | adj | умный
+interest | n | интерес, процент
+invitation | n | приглашение
+item | n | предмет, пункт
+key | adj | ключевой
+kindness | n | доброта
+knowledge | n | знание
+lack | n | нехватка
+leader | n | лидер
+leisure | n | досуг
+level | n | уровень
+license | n | лицензия, права | licence
+lifestyle | n | образ жизни
+location | n | местоположение
+logical | adj | логичный
+lyrics | n | слова песни
+majority | n | большинство
+male | adj | мужской
+female | adj | женский
+manner | n | манера
+marriage | n | брак
+material | n | материал
+meaning | n | значение
+method | n | метод
+mixture | n | смесь
+mystery | n | тайна, загадка
+neat | adj | аккуратный
+nightmare | n | кошмар
+novel | n | роман
+occasion | n | случай, повод
+option | n | вариант
+organisation | n | организация | organization
+outdoor | adj | на открытом воздухе
+indoor | adj | в помещении
+owner | n | владелец
+passion | n | страсть
+patience | n | терпение
+performance | n | выступление
+permission | n | разрешение
+personality | n | личность, характер
+pleasure | n | удовольствие
+poem | n | стихотворение
+poet | n | поэт
+possibility | n | возможность
+poster | n | плакат
+presentation | n | презентация
+pressure | n | давление
+principle | n | принцип
+priority | n | приоритет
+process | n | процесс
+profession | n | профессия
+quality | n | качество
+quantity | n | количество
+range | n | диапазон, ассортимент
+rate | n | уровень, ставка
+reaction | n | реакция
+reality | n | реальность
+relative | n | родственник
+reputation | n | репутация
+request | n | просьба
+resource | n | ресурс
+review | n | отзыв, обзор
+review | v | повторять, делать обзор
+reward | n | награда
+role | n | роль
+safety | n | безопасность
+scene | n | сцена
+security | n | безопасность, охрана
+sense | n | чувство, смысл
+sense of humour | ph | чувство юмора
+series | n | сериал, серия
+shape | n | форма
+silence | n | тишина
+source | n | источник
+speech | n | речь
+statement | n | заявление
+status | n | статус
+strength | n | сила
+structure | n | структура
+style | n | стиль
+suggestion | n | предложение
+summary | n | краткое содержание
+supply | n | запас, поставка
+symbol | n | символ
+talent | n | талант
+target | n | цель, мишень
+temper | n | характер, нрав
+theory | n | теория
+threat | n | угроза
+title | n | название, заголовок
+topic | n | тема
+tournament | n | турнир
+trend | n | тенденция
+trouble | n | беда, неприятность
+version | n | версия
+violence | n | насилие
 `;

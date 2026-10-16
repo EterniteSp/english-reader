@@ -897,4 +897,26 @@ change trains | ph | делать пересадку | changed trains, changes t
 swimming pool | n | бассейн
 walking | n | ходьба
 moustache | n | усы | mustache
+
+# Ещё A2
+less | adv | меньше
+less | det | меньше
+verb | n | глагол
+noun | n | существительное
+grammar | n | грамматика
+document | n | документ
+million | num | миллион
+heat | v | нагревать
+heat | n | жара, тепло
+melt | v | таять
+regular | adj | регулярный, обычный
+step | n | шаг, ступенька
+driving | n | вождение
+practice | n | практика, тренировка
+hurry up | ph | поторопиться | hurried up, hurries up, hurrying up
+turn down | ph | убавлять (звук), отказывать | turned down, turns down, turning down
+turn up | ph | прибавлять (звук), появляться | turned up, turns up, turning up
+fast food | n | фастфуд
+smoke | v | курить, дымить
+smoking | n | курение
 `;

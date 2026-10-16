@@ -9,6 +9,7 @@ China | name | Китай
 Dan | name | Дэн
 Emma | name | Эмма
 France | name | Франция
+Frankfurt | name | Франкфурт
 Germany | name | Германия
 Green | name | Грин (фамилия)
 Italy | name | Италия

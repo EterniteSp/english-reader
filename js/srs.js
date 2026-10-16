@@ -88,6 +88,9 @@ export function answer(p, id, result) {
   save();
 }
 
+// Служебные слова, которые нет смысла учить отдельно
+const SKIP = new Set(['be|v', 'have|v', 'do|v', 'will|v', 'can|v', 'get|v', 'there is|ph']);
+
 // Слова из текстов, которые пользователь уже читал (или текущего уровня).
 function candidateWordsFromTexts(p, lex) {
   const levelOrder = ['A1', 'A2', 'B1'];
@@ -103,12 +106,21 @@ function candidateWordsFromTexts(p, lex) {
         const hit = lookupInContext(lex, words, i);
         if (!hit) return;
         const e = hit.entries[0];
-        if (!CONTENT_POS.has(e.pos) || seen.has(e.id) || p.words[e.id]) return;
+        if (!CONTENT_POS.has(e.pos) || SKIP.has(e.id) || seen.has(e.id) || p.words[e.id]) return;
         seen.add(e.id);
         out.push({ entry: e, ctx: s[0] });
       });
     }
   }
+  // Если слова из текстов закончились — берём из словаря своего уровня и ниже
+  const extra = lex.entries.filter((e) => CONTENT_POS.has(e.pos) && e.level && levelOrder.indexOf(e.level) <= maxLevel && !seen.has(e.id) && !p.words[e.id]);
+  for (let i = extra.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [extra[i], extra[j]] = [extra[j], extra[i]];
+  }
+  // Сначала слова текущего уровня, затем более простые
+  extra.sort((a, b) => (b.level === p.level) - (a.level === p.level));
+  for (const e of extra) out.push({ entry: e, ctx: '' });
   return out;
 }
 
@@ -134,7 +146,10 @@ export function addMoreWords(p, lex, n = 5) {
 // Варианты ответа: та же часть речи, разные переводы.
 export function buildOptions(lex, entry, count = 4) {
   const samePos = (e) => e.pos === entry.pos || (entry.pos === 'ph' && e.pos === 'v') || (entry.pos === 'v' && e.pos === 'ph');
-  const pool = lex.entries.filter((e) => e.id !== entry.id && samePos(e) && e.main !== entry.main && e.pos !== 'name');
+  let pool = lex.entries.filter((e) => e.id !== entry.id && samePos(e) && e.main !== entry.main && e.pos !== 'name');
+  // Варианты того же уровня правдоподобнее
+  const sameLevel = pool.filter((e) => e.level === entry.level);
+  if (sameLevel.length >= 12) pool = sameLevel;
   const picked = [];
   const usedMain = new Set([entry.main]);
   while (picked.length < count - 1 && pool.length) {
