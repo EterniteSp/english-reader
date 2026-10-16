@@ -873,4 +873,28 @@ French | n | французский язык
 German | adj | немецкий
 German | n | немецкий язык
 British | adj | британский
+
+# Фразы A2
+weight | n | вес
+lose weight | ph | худеть | lost weight, loses weight, losing weight
+throat | n | горло
+suit | n | костюм
+reservation | n | бронь, бронирование
+land | v | приземляться
+land | n | земля, суша
+air conditioner | n | кондиционер
+cabin | n | салон (самолёта), каюта, хижина
+Wi-Fi | n | вайфай, беспроводной интернет
+check-in | n | регистрация, заезд
+check-out | n | выезд (из отеля)
+get well | ph | выздоравливать | got well, gets well, getting well
+twice a day | ph | два раза в день
+what about | ph | как насчёт
+take out | ph | выносить, вынимать | took out, takes out, taking out
+wash the dishes | ph | мыть посуду | washed the dishes, washes the dishes, washing the dishes
+turn | n | очередь, поворот
+change trains | ph | делать пересадку | changed trains, changes trains, changing trains
+swimming pool | n | бассейн
+walking | n | ходьба
+moustache | n | усы | mustache
 `;

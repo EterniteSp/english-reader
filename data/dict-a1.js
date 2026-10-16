@@ -703,4 +703,34 @@ England | name | Англия
 English | adj | английский
 American | adj | американский
 America | name | Америка
+
+# Фразы A1
+excuse | v | извинять
+excuse me | ph | извините
+see you | ph | увидимся, до встречи
+nice to meet you | ph | приятно познакомиться
+how long | ph | сколько времени, как долго
+how are you | ph | как дела
+bus stop | n | автобусная остановка
+on foot | ph | пешком
+from here | ph | отсюда
+half past | ph | половина (о времени): half past six — половина седьмого
+get dark | ph | темнеть | gets dark, got dark, getting dark
+before bed | ph | перед сном
+help | n | помощь
+minus | prep | минус
+plus | prep | плюс
+dollar | n | доллар
+euro | n | евро
+grandparent | n | бабушка или дедушка
+fourth | num | четвёртый
+fifth | num | пятый
+sixth | num | шестой
+seventh | num | седьмой
+eighth | num | восьмой
+ninth | num | девятый
+tenth | num | десятый
+
+# Ещё A1
+life | n | жизнь | lives
 `;
