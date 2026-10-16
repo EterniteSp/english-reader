@@ -43,11 +43,12 @@ bank | n | банк
 basic | adj | базовый, основной
 basil | n | базилик
 bathroom | n | ванная
-be | v | быть | am, is, are, was, were, been, being, isn't, wasn't, aren't, weren't
+be | v | быть | am, is, are, was, were, been, being
 beach | n | пляж
 beautiful | adj | красивый
 become | v | становиться | became, becomes, becoming
 bed | n | кровать
+bench | n | скамейка
 go to bed | ph | ложиться спать | goes to bed, went to bed, going to bed
 before | prep | до, перед, раньше
 begin | v | начинать | began, begun, begins, beginning
@@ -80,7 +81,7 @@ café | n | кафе
 cake | n | торт, пирожное
 call | v | звонить, звать, называть
 call for help | ph | позвать на помощь
-can | v | мочь, уметь | could, can't, couldn't, cannot
+can | v | мочь, уметь | could
 carry | v | нести, переносить
 cat | n | кошка, кот
 centre | n | центр
@@ -130,7 +131,15 @@ difficult | adj | трудный
 dinner | n | ужин
 have dinner | ph | ужинать
 disappear | v | исчезать
-do | v | делать | does, did, done, doing, don't, doesn't, didn't
+do | v | делать
+don't | ph | не (отрицание в настоящем) | do not
+doesn't | ph | не (отрицание: он/она) | does not
+didn't | ph | не (отрицание в прошлом) | did not
+can't | ph | не могу, нельзя | cannot, can not
+couldn't | ph | не мог, не смог | could not
+isn't | ph | не является, нет | is not
+wasn't | ph | не был | was not
+won't | ph | не будет | will not | does, did, done, doing
 doctor | n | врач
 dog | n | собака
 door | n | дверь
@@ -229,6 +238,7 @@ hair | n | волосы
 half | n | половина, тайм
 hand | n | рука, кисть
 happy | adj | счастливый, радостный | happier, happiest
+hang | v | вешать | hung, hangs, hanging
 hard | adj | тяжёлый, трудный | harder, hardest
 hardly | adv | едва, почти не
 hat | n | шляпа
@@ -291,7 +301,7 @@ be late | ph | опаздывать | was late, were late
 later | adv | позже, спустя
 laugh | v | смеяться
 lawyer | n | юрист
-lay | v | лежать (прош. от lie)
+lie | v | лежать | lay, lain, lies, lying
 lie in the sun | ph | загорать | lay in the sun, lying in the sun
 lead | v | вести | led, leads, leading
 leak | v | протекать
@@ -304,6 +314,7 @@ lesson | n | урок
 letter | n | письмо
 lift | v | поднимать, рассеиваться (о тумане)
 light | n | свет, огонь
+lion | n | лев
 light | adj | светлый, лёгкий
 like | v | нравиться, любить
 listen | v | слушать
@@ -614,7 +625,7 @@ which | pron | который, какой
 white | adj | белый
 who | pron | кто, который
 whole | adj | весь, целый
-will | v | (будущее время), буду | won't
+will | v | (будущее время), буду
 win | v | выигрывать, побеждать | won, wins, winning
 window | n | окно
 with | prep | с

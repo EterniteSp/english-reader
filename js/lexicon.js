@@ -60,16 +60,17 @@ export function autoForms(lemma, pos) {
 }
 
 // Строка словаря: lemma | pos | перевод (варианты через запятую) | особые формы через запятую (необязательно)
-export function parseDict(text) {
+export function parseDict(text, level = null) {
   const entries = [];
   for (const raw of text.split('\n')) {
     const line = raw.trim();
     if (!line || line.startsWith('#')) continue;
+    if (line.startsWith('@')) { level = line.slice(1).trim(); continue; } // @A2 — дальше слова уровня A2
     const parts = line.split('|').map((p) => p.trim());
     if (parts.length < 3) throw new Error('Плохая строка словаря: ' + line);
     const [w, pos, ru, forms = ''] = parts;
     entries.push({
-      w, pos, ru,
+      w, pos, ru, level,
       main: ru.split(',')[0].trim(),
       forms: forms ? forms.split(',').map((f) => f.trim().toLowerCase()).filter(Boolean) : [],
     });
@@ -77,8 +78,10 @@ export function parseDict(text) {
   return entries;
 }
 
-export function buildLexicon(text) {
-  const entries = parseDict(text);
+// sources: строка словаря или массив [уровень, строка]
+export function buildLexicon(sources) {
+  const list = typeof sources === 'string' ? [[null, sources]] : sources;
+  const entries = list.flatMap(([level, text]) => parseDict(text, level));
   const byId = new Map();
   const strong = new Map(); // форма -> [entry] (слово и явные формы)
   const weak = new Map(); // автоматические формы — слабее явных
@@ -136,6 +139,8 @@ export function lookupInContext(lex, words, i) {
   const w = norm(words[i]);
   let found = lex.lookupForm(w);
   if (!found.length && w.endsWith("'s")) found = lex.lookupForm(w.slice(0, -2));
+  // Слово с большой буквы не в начале предложения — сначала имя собственное
+  if (i > 0 && /^[A-Z]/.test(words[i])) found = [...found].sort((a, b) => (b.pos === 'name') - (a.pos === 'name'));
   if (!found.length && w.includes('-')) found = lex.lookupForm(w.split('-')[0]);
   return found.length ? { entries: found, start: i, len: 1 } : null;
 }
